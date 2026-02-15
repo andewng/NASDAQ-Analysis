@@ -11,20 +11,16 @@ The long-term objective is to integrate both components into a unified valuation
 
 ---
 
-##  Structure
-├── NASDAQML.py # Streamlit Monte Carlo simulation app
-├── valuation.ipynb # LSTM & ML valuation modeling (WIP)
-└── README.md
 
 **File:** `NASDAQML.py`
-This Streamlit application performs stochastic stock price simulation using Monte Carlo simulation.
+- This Streamlit application performs stochastic stock price simulation using Monte Carlo simulation.
 
 ### How to Run
 pip install -r requirements.txt
 streamlit run NASDAQML.py
 
 **File:** `valuation.ipynd`
-This notebook explores data analysis & machine learning to predict stock valuation over time.
+- This notebook explores data analysis & machine learning to predict stock valuation over time.
 ***This component is still under active development**
 
 - Python
